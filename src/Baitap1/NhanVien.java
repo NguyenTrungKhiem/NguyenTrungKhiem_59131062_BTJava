@@ -1,4 +1,3 @@
-
 package Baitap1;
 
 public class NhanVien {
@@ -64,9 +63,5 @@ public class NhanVien {
         if(tongGioLam>=200) return tienLuong * 0.2;
         else if (tongGioLam>=100 && tongGioLam<200) return tienLuong * 0.1;
         return 0;
-    }
-
-    void setTuoi(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
